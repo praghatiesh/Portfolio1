@@ -1,0 +1,248 @@
+body {
+  background-color: rgb(226, 226, 226);
+}
+.Nav {
+  background-color: rgb(195, 0, 255);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+.box {
+  padding: 10px 14px;
+}
+
+.name {
+  position: absolute;
+  left: 0;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: rgb(221, 137, 255);
+  border-style: solid;
+  border-color: rgb(195, 0, 255);
+  border-radius: 9px;
+  border-width: 4px;
+  animation-name: praga1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes praga1 {
+  20% {
+    border-bottom-color: white;
+  }
+  50% {
+    border-bottom-color: white;
+    border-right-color: white;
+  }
+  85% {
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top-color: white;
+  }
+  100% {
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    border-left-color: white;
+  }
+}
+@keyframes proj {
+  20% {
+    border-bottom-color: rgb(21, 6, 160);
+  }
+  50% {
+    border-bottom-color: rgb(21, 6, 160);
+    border-right-color: rgb(21, 6, 160);
+  }
+  85% {
+    border-bottom-color: rgb(21, 6, 160);
+    border-right-color: rgb(21, 6, 160);
+    border-top-color: rgb(21, 6, 160);
+  }
+  100% {
+    border-bottom-color: rgb(21, 6, 160);
+    border-right-color: rgb(21, 6, 160);
+    border-top-color: rgb(21, 6, 160);
+    border-left-color: rgb(21, 6, 160);
+  }
+}
+@keyframes praga {
+  20% {
+    border-bottom-color: red;
+  }
+  50% {
+    border-bottom-color: red;
+    border-right-color: rgb(0, 255, 21);
+  }
+  85% {
+    border-bottom-color: red;
+    border-right-color: rgb(0, 255, 21);
+    border-top-color: rgb(255, 166, 0);
+  }
+  100% {
+    border-bottom-color: red;
+    border-right-color: rgb(0, 255, 21);
+    border-top-color: rgb(255, 166, 0);
+    border-left-color: rgb(20, 4, 255);
+  }
+}
+.Kncet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img1 {
+  background-image: url("img1.jpg");
+  background-size: 100% 100%;
+  width: 300px;
+  height: 506px;
+  margin: 5px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(226, 226, 226);
+  flex-wrap: nowrap;
+}
+.img2 {
+  background-image: url("img2.jpg");
+  background-size: 100% 100%;
+  width: 300px;
+  height: 506px;
+  margin: 5px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(226, 226, 226);
+  flex-wrap: nowrap;
+}
+.img3 {
+  background-image: url("img3.jpg");
+  background-size: 100% 100%;
+  width: 300px;
+  height: 506px;
+  margin: 5px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(226, 226, 226);
+  flex-wrap: nowrap;
+}
+.Projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  /* background-color: rgb(226, 226, 226); */
+}
+.projBox {
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(226, 226, 226);
+  flex-wrap: nowrap;
+}
+.projBox:hover,
+.skillbox:hover {
+  animation-name: proj;
+  animation-duration: 4s;
+}
+.txth {
+  text-align: center;
+  font-size: 28px;
+  margin: 20% 0px;
+}
+.button {
+  color: white;
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(1, 1, 168);
+  border-radius: 7px;
+}
+.iframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.text {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  font-size: 30px;
+}
+.nametext {
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  padding: 10px;
+}
+.homebtn {
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: blueviolet;
+}
+body {
+  background-color: white;
+  background-size: 100%;
+}
+.skill {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+.skillbox {
+  width: 60%;
+  height: 150px;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(226, 226, 226);
+}
+.icons {
+  margin: 0 10px;
+}
+.icons:hover {
+  filter: grayscale(1);
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c1c1c1;
+}
+.dp{
+  width:180px;
+  height:160px;
+  border-radius: 50%;
+}
