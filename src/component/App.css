@@ -18,6 +18,7 @@ body {
 .name {
   position: absolute;
   left: 0;
+  top:0;
   color: white;
   font-weight: 800;
   font-size: 20px;
@@ -216,7 +217,7 @@ body {
   background-size: 100%;
 }
 .skill {
-  margin: 100px 0;
+  margin: 130px 0;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -251,4 +252,8 @@ body {
   width: 180px;
   height: 160px;
   border-radius: 50%;
+}
+.Lnkstyl{
+  text-decoration: none;
+  color:#000000;
 }
