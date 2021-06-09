@@ -146,7 +146,7 @@ flex:1 1 200px;
   flex-wrap: nowrap;
 }
 .Projects {
-  background-color: rgb(226, 226, 226);
+  /* background-color: rgb(226, 226, 226); */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
