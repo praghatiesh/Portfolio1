@@ -17,7 +17,7 @@ export default function Footer(){
             <a href="https://github.com/praghatiesh">
               <img
                 className="icons"
-                src="https://image.flaticon.com/icons/png/512/733/733553.png"
+                src="https://pngimg.com/uploads/github/github_PNG84.png"
                 width="50px"
                 height="50px"
               />
