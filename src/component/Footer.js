@@ -25,7 +25,7 @@ export default function Footer(){
             <a href="mailto:praghatieshss@gmail.com">
               <img
                 className="icons"
-                src="https://image.flaticon.com/icons/png/512/893/893257.png"
+                src="https://pngimg.com/uploads/email/email_PNG20.png"
                 width="50px"
                 height="55px"
               />
